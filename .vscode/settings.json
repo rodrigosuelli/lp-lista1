@@ -1,9 +1,8 @@
 {
   "code-runner.executorMap": {
-    "c": "cd $dir && gcc -Wall -Wextra -Wunused-parameter -g *.c -o $fileNameWithoutExt -lm && $dir$fileNameWithoutExt"
+    "c": "cd $dir && gcc -Wall -Wextra -Wunused-parameter -g $fileName get_input.c -o $fileNameWithoutExt -lm && $dir$fileNameWithoutExt"
   },
   "files.associations": {
-    "get_input.h": "c",
-    "stdlib.h": "c"
+    "get_input.h": "c"
   }
 }
